@@ -1,0 +1,21 @@
+# Survey data and outputs are never committed.
+pipeline/runs/
+pipeline/logs/
+pipeline/data_audit/
+pipeline/weights/
+pipeline/vendor/
+images/
+*.npz
+*.ply
+*.pcd
+*.jpg
+*.JPG
+*.png
+*.pt
+gpu_ledger.json
+gpu_runner.lock
+work_schedule.json
+__pycache__/
+*.pyc
+# Figures produced by the demos are part of the repository.
+!docs/figures/*.png
